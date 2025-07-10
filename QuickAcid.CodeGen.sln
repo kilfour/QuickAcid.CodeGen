@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickAcid.CodeGen", "QuickAcid.CodeGen\QuickAcid.CodeGen.csproj", "{040B97D8-4468-2F97-9266-2FE423E85FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickAcid.CodeGen.Tests", "QuickAcid.CodeGen.Tests\QuickAcid.CodeGen.Tests.csproj", "{46B80C96-334D-0B37-3BD1-4F7D0909752A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{040B97D8-4468-2F97-9266-2FE423E85FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040B97D8-4468-2F97-9266-2FE423E85FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040B97D8-4468-2F97-9266-2FE423E85FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040B97D8-4468-2F97-9266-2FE423E85FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B80C96-334D-0B37-3BD1-4F7D0909752A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B80C96-334D-0B37-3BD1-4F7D0909752A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B80C96-334D-0B37-3BD1-4F7D0909752A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B80C96-334D-0B37-3BD1-4F7D0909752A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91446C71-9BED-4945-9AFF-D4618CE7CE93}
+	EndGlobalSection
+EndGlobal
