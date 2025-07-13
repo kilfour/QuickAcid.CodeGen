@@ -1,6 +1,4 @@
 using QuickMGenerate;
-using QuickAcid.Bolts.Nuts;
-using QuickAcid.Bolts;
 
 namespace QuickAcid.Tests.Refining;
 

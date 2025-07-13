@@ -1,6 +1,4 @@
-using QuickAcid.Bolts;
-using QuickAcid.Bolts.Nuts;
-using QuickAcid.TestsDeposition._Tools;
+using QuickExplainIt.Text;
 
 namespace QuickAcid.TestsDeposition.Linqy.CodeGen.Spec;
 

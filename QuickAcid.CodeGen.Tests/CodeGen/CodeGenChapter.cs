@@ -1,7 +1,6 @@
-using QuickAcid.Bolts;
-using QuickAcid.Bolts.Nuts;
-using QuickAcid.TestsDeposition._Tools;
 using QuickAcid.TestsDeposition._Tools.Models;
+using QuickExplainIt;
+using QuickExplainIt.Text;
 using QuickMGenerate;
 
 namespace QuickAcid.TestsDeposition.Linqy.CodeGen;
@@ -89,6 +88,6 @@ public class CodeGenChapter
         Assert.Equal("        Assert.True(account.Balance >= 0);", reader.NextLine());
         Assert.Equal("    }", reader.NextLine());
         Assert.Equal("}", reader.NextLine());
-        Assert.True(reader.EndOfCode());
+        Assert.True(reader.EndOfContent());
     }
 }

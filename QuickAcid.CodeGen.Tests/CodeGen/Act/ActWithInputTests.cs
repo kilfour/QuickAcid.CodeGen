@@ -1,5 +1,3 @@
-using QuickAcid.Bolts;
-using QuickAcid.Bolts.Nuts;
 using QuickMGenerate;
 
 namespace QuickAcid.TestsDeposition.Linqy.CodeGen.Act
