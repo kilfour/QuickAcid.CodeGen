@@ -13,7 +13,7 @@ namespace QuickAcid.CodeGen
             for (int i = 0; i < scopes; i++)
             {
                 var state = new QAcidState(script);
-                state.Testify(executionsPerScope);
+                state.Run(executionsPerScope);
                 if (state.CurrentContext.Failed)
                 {
                     if (state.CurrentContext.Exception != null)
